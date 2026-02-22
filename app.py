@@ -3,10 +3,9 @@ from datetime import date
 import requests
 import random
 import os
-from dotenv import load_dotenv
 
-# Load env file
-load_dotenv("app.env")
+
+
 
 # CONFIG
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
